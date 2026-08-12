@@ -1,0 +1,19 @@
+{
+  "name": "safelight-filmstrip",
+  "version": "1.1.0",
+  "description": "Filmstrip — dockable thumbnail strip extension for Safelight.",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "author": "Anthony Reimche <anthonyreimche@gmail.com>",
+  "scripts": {
+    "build": "rolldown -c rolldown.config.mjs",
+    "typecheck": "tsc --noEmit",
+    "test": "rolldown test/strip-math.test.ts -o test/strip-math.test.mjs --format esm && node test/strip-math.test.mjs"
+  },
+  "devDependencies": {
+    "rolldown": "^1.0.0",
+    "typescript": "^5.5.0",
+    "@types/react": "^18.3.0"
+  }
+}
