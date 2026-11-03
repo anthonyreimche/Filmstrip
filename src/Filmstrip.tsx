@@ -2,7 +2,7 @@
 // virtualized strip of core cells — horizontal thumbnails when docked in a
 // bottom rail, vertical thumbnails or list rows in a side rail or floating
 // window. The thumbnail size follows the rail's cross-axis, so resizing the
-// rail resizes the cells (Lightroom behavior).
+// rail resizes the cells (Lightroom behaviour).
 //
 // Selection, the right-click menu and the culling shortcuts all come from core,
 // so the strip behaves exactly like the Library grid — extension-contributed
