@@ -35,7 +35,7 @@ rebound under *Preferences ▸ Shortcuts*:
 | `Alt+[`, `Alt+]` | Rotate |
 | `F2` | Rename |
 | `Ctrl+R` | Show in folder |
-| `Delete` | Remove from catalog |
+| `Delete` | Remove from catalogue |
 | `Ctrl+A` | Select everything the strip is showing |
 
 Develop keeps its own keys where they overlap: `Delete` still deletes a selected

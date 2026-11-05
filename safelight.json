@@ -1,7 +1,7 @@
 {
   "id": "com.safelight.filmstrip",
   "name": "Filmstrip",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A resizable strip of thumbnails docked under the Develop canvas, or vertically on either side with an optional list view, showing the Library's current filtered and sorted order. Cull without leaving the editor: click, Ctrl and Shift selection, the Library's right-click menu including other extensions' actions, and its rating, flag, label, rotate, rename and delete shortcuts. Toggle with F6.",
   "author": "Anthony Reimche <anthonyreimche@gmail.com>",
   "main": "dist/index.js",

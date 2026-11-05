@@ -5,7 +5,7 @@
 
 import type { ComponentType, MouseEvent as ReactMouseEvent, ReactNode } from "react";
 
-// ── catalog model ────────────────────────────────────────────────────────────
+// ── catalogue model ────────────────────────────────────────────────────────────
 
 export type ColorLabel = "none" | "red" | "yellow" | "green" | "blue" | "purple";
 export type FlagStatus = "none" | "pick" | "reject";
@@ -79,7 +79,7 @@ export interface PhotoListRowProps {
 /** The Library's photo right-click menu, for any surface that lists photos. */
 export interface PhotoActions {
   onContextMenu: (id: string, e: ReactMouseEvent) => void;
-  /** The menu and its dialogs — render inside the surface. */
+  /** The menu and its dialogues — render inside the surface. */
   overlays: ReactNode;
 }
 
@@ -200,7 +200,7 @@ export interface SafelightAPI {
      *  core's ←/→ photo navigation walks. */
     useVisiblePhotos(): CatalogPhoto[];
     /** The Library's photo right-click menu (built-ins + every extension's
-     *  registerGridMenuItem) with its dialogs. React hook. */
+     *  registerGridMenuItem) with its dialogues. React hook. */
     usePhotoActions(): PhotoActions;
     /** Mount the Library's culling shortcuts (ratings, flags, labels, rotate,
      *  remove/delete, rename, reveal, select-all, prev/next) while the calling

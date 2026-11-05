@@ -38,7 +38,7 @@ eq("later cells step by stride", cellOffset(2, 100, 4, 6), 6 + 208);
 
 console.log("visibleRange");
 eq(
-  "empty catalog renders nothing",
+  "empty catalogue renders nothing",
   visibleRange(0, 500, 100, 4, 0, 2),
   { start: 0, end: 0 },
 );
