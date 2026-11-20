@@ -19,8 +19,9 @@ the Develop module.
 - The **mouse wheel** scrolls it, no need to aim for the scrollbar.
 - **Click the header** to fold the strip down out of the way, and again to bring
   it back at the same size.
-- Hover a thumbnail for its star control. Ratings, flags, colour labels and
-  virtual-copy names all read the same as the Library grid.
+- Ratings, flags, colour labels and virtual-copy names all read the same as
+  the Library grid. The stars are display-only, so a click anywhere on a
+  thumbnail selects it; turn on *Rate from thumbnails* to rate by clicking them.
 
 ## Cull without leaving Develop
 
@@ -62,6 +63,7 @@ once the rail is wide enough.
 
 | Setting | Default | Notes |
 |---|---|---|
+| Rate from thumbnails | Off | Clicking a thumbnail's stars rates the photo. Off, the stars only show the rating, so clicks on them select the photo. `1`–`5`, `0` and the right-click menu rate either way. |
 | List view | Off | Rows instead of thumbnails. Only offered while the strip is docked left, right or floating, since a strip along the bottom is one thumbnail tall. |
 
 ## How it works

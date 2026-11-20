@@ -11,6 +11,7 @@
 import { React, api, ui } from "./rt";
 import type { MouseEvent as ReactMouseEvent } from "react";
 import { useListView } from "./list-view";
+import { useRateFromThumbnails } from "./rate-from-thumbnails";
 import { setStripPlacement } from "./placement";
 import { cellOffset, scrollIntoView, stripLength, visibleRange } from "./strip-math";
 
@@ -45,6 +46,7 @@ export function FilmstripPanel() {
 
   // A list needs rows, which a one-thumbnail-tall bottom rail has no room for.
   const list = useListView() && !horizontal;
+  const rateFromThumbnails = useRateFromThumbnails();
 
   // Preferences renders outside the dock and can't read the placement context,
   // so publish it for the settings section.
@@ -223,7 +225,7 @@ export function FilmstripPanel() {
                     onClick={handleClick}
                     onDoubleClick={handleDoubleClick}
                     onContextMenu={onContextMenu}
-                    onRatingChange={handleRate}
+                    onRatingChange={rateFromThumbnails ? handleRate : undefined}
                   />
                 )}
               </div>

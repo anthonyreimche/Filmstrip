@@ -36,7 +36,7 @@ export function activate(a: SafelightAPI): void {
     title: "Filmstrip",
     fields: [],
     component: FilmstripSettings,
-    keywords: ["list view", "rows", "thumbnails", "filmstrip"],
+    keywords: ["list view", "rows", "thumbnails", "filmstrip", "rating", "stars", "rate"],
   });
 }
 
